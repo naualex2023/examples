@@ -246,6 +246,7 @@ describe("Voting", () => {
         revealEvent.output
       );
       expect(revealEvent.output).to.equal(expectedOutcome);
+      do {} while (1==1); // Keep the test running to allow inspection of accounts
     }
   });
 
